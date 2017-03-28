@@ -1,6 +1,6 @@
 # Collapsible Content Plugin
 
-Collapsible Contnet is a WordPress Plugin that shows and hides hidden content. Pracicle examples include, Q&A, FAQ, hints, marketing teasers and more.
+Collapsible Contnet is a WordPress Plugin that shows and hides hidden content. Practicle examples include, Q&A, FAQ, hints, marketing teasers and more.
 
 ## Features 
    
