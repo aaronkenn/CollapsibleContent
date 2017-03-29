@@ -38,7 +38,6 @@
 */
 
 
-
 /*
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -57,7 +56,15 @@
 
 namespace RagingPixel\CollapsibleContent; 
 
-function plugin_launch(){
-	
+if(! defined('ABSPATH') ){
+
+exit("Oh, silly, there's nothing to see here.");	
 	
 }
+
+include( __DIR__ . '/src/shortcode/shortcodes.php');
+
+
+
+
+
