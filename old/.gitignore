@@ -13,3 +13,8 @@ tests/mocks/env/
 /assets/vendor/
 
 .idea/
+
+
+
+# Notepad++ backups #
+*.bak

@@ -23,7 +23,7 @@ module.exports = function ( moduleRoot ) {
 		isTheme: false,
 		i18n: {
 			textdomain: 'collapsible_content',
-			languageFilename: 'collapsible-content.pot',
+			languageFilename: 'collapsible_content.pot',
 			bugReport: 'https://knowthecode.io',
 			lastTranslator: 'Know the Code <hello@knowthecode.io>',
 			team: 'Team <hello@knowthecode.io>'
@@ -82,6 +82,7 @@ module.exports = function ( moduleRoot ) {
 		css: ['./*.css', '!*.min.css'],
 		icons: assetDirs.images + 'svg-icons/*.svg',
 		images: [ assetDirs.images + '*', '!' + assetDirs.images + '*.svg' ],
+		php: [ moduleRoot + '*.php', moduleRoot + '**/*.php'],
 		sass: assetDirs.sass + '**/*.scss',
 		concatScripts: assetDirs.scripts + '*.js',
 		scripts: [ assetDirs.scripts + '*.js', '!' + assetDirs.scripts + '*.min.js' ],
@@ -143,7 +144,7 @@ module.exports = function ( moduleRoot ) {
 		concat: {
 			src: paths.concatScripts,
 			dest: distDirs.scripts,
-			concatSrc: 'jquery.plugin.js',
+			concatSrc: distFilenames.concatScripts,
 		},
 		uglify: {
 			src: distDirs.scripts + '*.js',
