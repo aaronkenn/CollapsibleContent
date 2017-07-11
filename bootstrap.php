@@ -1,6 +1,8 @@
-  <?php
-  /*
+<?php 
+namespace ragingpixel\CollapsibleContent;
   
+  
+  /*
   *	Collapsible Content plugin
   * 
   *	@package	ragingpixel\CollapsibleContent
@@ -35,14 +37,15 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-  */
-  
-  
-  namespace ragingpixel\CollapsibleContent;
+
+
+if(! defined('ABSPATH') ){
+	die("Oh, silly, there's nothing to see here.");
+}
+
+include( __DIR__ . '\src\shortcode\shortcodes.php');
+
+
 
   
-  function plugin_launch(){
-	  
-	  
-  }
   
